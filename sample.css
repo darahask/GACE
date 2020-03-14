@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Noto+Sans+SC&display=swap');
+
+#content{
+    font-family: 'Noto Sans SC', sans-serif;
+    min-height: 500px;
+    margin-top: 30px;
+    border-style: solid;
+    padding: 8px;
+    border-width: 2px;
+    border-color: #d6d6d6;
+    font-size: 16px;
+    width: 50%;
+}
+
+#contentmain{
+    font-family: 'Noto Sans SC', sans-serif;
+    min-height: 500px;
+    margin-top: 30px;
+    border-style: solid;
+    padding: 8px;
+    border-width: 2px;
+    border-color: #d6d6d6;
+    font-size: 16px;
+    width: 50%;
+}
+
+#button{
+    margin: 30px 0px 0px 4px;
+}

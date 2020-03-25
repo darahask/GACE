@@ -1,18 +1,19 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
-    cout<<"Hello You"<<endl;
-    
+int main()
+{
+   int i = 10;
+   cout<<"Hello"<<endl;
+   
 int i = 0;
 while(i < 10)
 {
-        cout<<i<<endl;
-    
+      cout<<i<<" ";
+   
 	i++;
 }
 
-    cout<<"end of file";
+   return 0;
 
 }

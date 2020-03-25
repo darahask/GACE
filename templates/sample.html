@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editor</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/sample.css')}}">
+    </head>
+    <body>
+        <div>
+        <form action="/save" method="POST">
+            <textarea name="code" id="c1" cols="90" rows="28" id="content1">{{content1}}</textarea>
+            <br>
+            <button class="button">Save File</button>
+        </form>
+        <form action="/convert" method="POST">
+            <button class="button">Convert Code Sample</button>
+            <br>
+            <textarea name="code" id="c2" cols="90" rows="28" id="content2">{{content2}}</textarea>
+        </form>
+        <form action="/refresh" method="POST">
+            <button class ="button">Refresh</button>
+        </form>
+        </div>
+    </body> 
+</html>
